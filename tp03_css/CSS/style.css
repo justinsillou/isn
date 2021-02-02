@@ -1,0 +1,95 @@
+body {
+	margin : 10px 0 ;
+	padding : 0 ;
+	text-align : center ;
+	background : #dea ;
+	font : 0.8em "Trebuchet MS", helvetica, sans-sherif ;
+}
+
+#conteneur {
+	width : 770px ;
+	margin : 0 auto ;
+	text-align : left ;
+	background : #fff ;
+	border : 2px solid #ab4 ;
+}
+
+ul#menu {
+	list-style-type : none ;
+	margin : 0 ;
+	padding : 0 ;
+	height : 35px ;
+	background : url(../IMG/bg_menu.gif) repeat-x 0 -25px ;
+}
+
+ul#menu li {
+	float : left ;  
+	text-align : center ;
+}
+
+ul#menu li a {
+	display : block ;
+	width : 140px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	text-decoration: none ;
+	border-right: 2px solid #dea ;
+}
+
+ul#menu li a:hover {
+	background : url(../IMG/bg_menu.gif) repeat-x 0 0 ;
+}
+
+h1#header {
+	height : 258px ;
+	background : url(../IMG/apple.jpg) no-repeat left top ;
+}
+
+h1#header a {
+	display : block ;
+	width : 400px ;
+	height : 70px ;
+	position : relative ;
+	left : 350px ;
+	top : 15px ;
+	background : url(../IMG/title.gif) no-repeat ;
+	text-indent : -5000px;
+}
+
+#contenu {
+	padding : 0 30px 0 100px ;
+	background : url(../IMG/bg_page.gif) no-repeat 20px 20px ;
+}
+
+#contenu h2 {
+	line-height : 25px ;
+	font-size : 1.4em ;
+	padding-left : 25px ;
+	color : #8a0 ;
+	background : url(../IMG/little_apple.gif) no-repeat left bottom ;
+	border-bottom : 1px solid #9b2 ;
+}
+
+#contenu p {
+	text-indent : 2em ;
+	text-align : justify ;
+	line-height : 1.7em ;
+}
+
+#contenu a {
+	color : #8a0 ;
+}
+
+#contenu a:hover {
+	color : #9b2 ;
+}
+
+p#footer {
+	text-align : right ;
+	color : #8a0 ;
+	padding-right : 10px ;
+	line-height : 30px ;
+}
